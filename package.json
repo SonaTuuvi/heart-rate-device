@@ -1,0 +1,42 @@
+{
+  "urls": [
+    ["app/app.py", "http://localhost:8000/app/app.py"],
+    ["app/handle_history.py", "http://localhost:8000/app/handle_history.py"],
+    ["app/handle_hr.py", "http://localhost:8000/app/handle_hr.py"],
+    ["app/handle_hrv.py", "http://localhost:8000/app/handle_hrv.py"],
+    ["app/handle_kubios.py", "http://localhost:8000/app/handle_kubios.py"],
+
+    ["cloud/kubios.py", "http://localhost:8000/cloud/kubios.py"],
+    ["cloud/kubios_utils.py", "http://localhost:8000/cloud/kubios_utils.py"],
+
+    ["core/config.py", "http://localhost:8000/core/config.py"],
+    ["core/hrm.py", "http://localhost:8000/core/hrm.py"],
+    ["core/hrv.py", "http://localhost:8000/core/hrv.py"],
+    ["core/menu.py", "http://localhost:8000/core/menu.py"],
+    ["core/utils.py", "http://localhost:8000/core/utils.py"],
+    ["core/wifi_mqtt.py", "http://localhost:8000/core/wifi_mqtt.py"],
+    ["core/adc_sampler.py", "http://localhost:8000/core/adc_sampler.py"],
+
+    ["history/history_utils.py", "http://localhost:8000/history/history_utils.py"],
+
+    ["lib/fifo.py", "http://localhost:8000/lib/fifo.py"],
+    ["lib/filefifo.py", "http://localhost:8000/lib/filefifo.py"],
+    ["lib/led.py", "http://localhost:8000/lib/led.py"],
+    ["lib/piotimer.py", "http://localhost:8000/lib/piotimer.py"],
+    ["lib/ssd1306.mpy", "http://localhost:8000/lib/ssd1306.mpy"],
+    ["lib/umqtt/simple.mpy", "http://localhost:8000/lib/umqtt/simple.mpy"],
+
+    ["ui/display.py", "http://localhost:8000/ui/display.py"],
+    ["ui/layout_animations.py", "http://localhost:8000/ui/layout_animations.py"],
+    ["ui/layout_common.py", "http://localhost:8000/ui/layout_common.py"],
+    ["ui/layout_history.py", "http://localhost:8000/ui/layout_history.py"],
+    ["ui/layout_hr.py", "http://localhost:8000/ui/layout_hr.py"],
+    ["ui/layout_hrv.py", "http://localhost:8000/ui/layout_hrv.py"],
+    ["ui/layout_menu.py", "http://localhost:8000/ui/layout_menu.py"],
+    ["ui/oled.py", "http://localhost:8000/ui/oled.py"],
+
+    ["main.py", "http://localhost:8000/main.py"]
+  ],
+  "deps": [],
+  "version": "0.1"
+}
