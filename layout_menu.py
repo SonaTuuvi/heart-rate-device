@@ -1,7 +1,7 @@
 from ui.oled import oled
 import framebuf
 import time
-from ui.menu_icons import menu_icons, ICON_WIDTH, ICON_HEIGHT
+from menu_icons import menu_icons, ICON_WIDTH, ICON_HEIGHT
 
 def welcome_screen():
     """

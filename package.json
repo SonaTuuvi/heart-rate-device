@@ -33,6 +33,7 @@
     ["ui/layout_hr.py", "http://localhost:8000/ui/layout_hr.py"],
     ["ui/layout_hrv.py", "http://localhost:8000/ui/layout_hrv.py"],
     ["ui/layout_menu.py", "http://localhost:8000/ui/layout_menu.py"],
+    ["ui/menu_icons.py", "http://localhost:8000/ui/menu_icons.py"],
     ["ui/oled.py", "http://localhost:8000/ui/oled.py"],
 
     ["main.py", "http://localhost:8000/main.py"]

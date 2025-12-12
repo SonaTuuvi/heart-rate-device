@@ -39,6 +39,7 @@ from app.handle_hrv import handle_basic_hrv
 from app.handle_kubios import handle_kubios
 from app.handle_history import handle_history
 from core.local_mqtt import connect_wifi, connect_mqtt, publish_json
+from ui.layout_menu import welcome_screen
 
 import time
 
@@ -71,7 +72,8 @@ def run_app():
       This combination ensures the code waits for both press and release
       transitions reliably.
     """
-
+    welcome_screen()
+    
     # Initialize encoder hardware abstraction using two GPIO pins (example
     # pin numbers 10 and 11). The exact pins and wiring depend on your
     # microcontroller board and `Encoder` implementation.
